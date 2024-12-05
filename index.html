@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Image Gallery</title>
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <div class="gallery-container">
+    <button class="nav-btn prev-btn">&#10094;</button>
+    <div class="gallery-wrapper">
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image 1">
+        <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 2">
+        <img src="https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 3">
+        <img src="https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 4">
+      </div>
+    </div>
+    <button class="nav-btn next-btn">&#10095;</button>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <span class="close-btn">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
